@@ -23,9 +23,22 @@
  */
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE //
-    
-    
-    
+    var arrRange = [];
+    if (start < end) {
+        for (var i = start; i <= end; i++) {
+          arrRange.push(i);
+        }
+        return arrRange;
+    }
+    else if (end < start) {
+        for (var i = end; i <= start; i++) {
+          arrRange.unshift(i);
+        }
+        return arrRange;
+    }
+    else {
+      console.log('Fail');
+    }
     
     // YOUR CODE GOES ABOVE HERE //
 }

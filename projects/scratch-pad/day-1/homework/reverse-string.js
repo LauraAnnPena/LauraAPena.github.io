@@ -20,11 +20,16 @@
  */
 
 function reverseString(input) {
-    // YOUR CODE GOES BELOW HERE //
-    
-    
-    
-    
+// YOUR CODE GOES BELOW HERE //
+     var charCollect = [];
+     for (var i = input.length-1; i >= 0; i--) {
+// Print each iteration to the console
+      charCollect.push(input[i]);
+      }
+     var charJoin = charCollect.join('');
+     console.log(charJoin);
+     return charJoin;
+ 
     // YOUR CODE GOES ABOVE HERE //
 }
 
