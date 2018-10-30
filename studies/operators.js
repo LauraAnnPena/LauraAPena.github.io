@@ -59,7 +59,7 @@ x = 10 % 3; // returns 1
 5 > 0 && 5 > 10; // false since only one expression is true
 
 // || or
-5 === 5 || 5 === 10; // returns true if either expression is true
+5 === 5 || 5 === 10; // returns true since either expression is true
 
 // ! not
 5 !== 10; // true since 5 is NOT equal to 10

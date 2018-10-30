@@ -91,21 +91,22 @@ else {
 //      default : 
 //      (code to execute)
 //      }
+
 // Here is the same code as above in a switch statement.
-salary = 2000000;
-switch (salary) {
-    case salary < 60000 : 
+salary = 700000;
+switch (true) {     // true is the condition that must be met
+    case salary < 60000 : // evaluates to false
     console.log('Get to work!');
     break;
-    case salary > 60000 && salary < 100000 :
+    case salary > 60000 && salary < 100000 : // evaluates to false
     console.log('We\'re getting there!');
     break;
-    case salary >= 100000 && salary < 500000 :
+    case salary >= 100000 && salary < 500000 : // evaluates to false
     console.log('We made it!!!'); 
     break; 
-    case salary >= 500000 && salary <= 1000000 :
-    console.log('Ballin!'); 
+    case salary >= 500000 && salary <= 1000000 : // evaluates to true
+    console.log('Ballin!'); // so this code will run
     break;
     default :
-    console.log('Errday I\'m hustlin!');
-}
+    console.log('Errday I\'m hustlin!'); // ignored since the above case evaluated
+}                                        // to true

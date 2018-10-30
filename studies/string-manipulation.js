@@ -26,3 +26,5 @@ console.log(x.toLowerCase()); // logs 'hello '
 
 console.log(x); // logs 'Hello ' 
 console.log(y); // logs 'Laura' 
+// See? Logging the variables still return the original values and are unaffected
+// by the string methods.
